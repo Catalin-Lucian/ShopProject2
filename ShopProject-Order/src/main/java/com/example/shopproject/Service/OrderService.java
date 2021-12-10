@@ -21,11 +21,6 @@ public class OrderService {
     MongoOperations mongoOps = new MongoTemplate(new SimpleMongoClientDatabaseFactory(MongoClients.create(),
             "book-order"));
 
-    final BookService bookService;
-
-    public OrderService(BookService bookService) {
-        this.bookService = bookService;
-    }
 
     public void PostOrder(PostOrderDTO postOrderDTO, Integer idUser) {
         Order order= OrderMapper.convertToOrder(postOrderDTO);

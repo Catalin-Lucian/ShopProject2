@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="--" />
+    <list default="true" id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="--">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Controller/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/BookAuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/AuthorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/BookAuthorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +31,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
@@ -32,6 +51,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,42 +63,47 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopProjectApplication">
-    <configuration name="ShopProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ShopProject-Book" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopProjectApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ShopProject-Order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopProjectApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.ShopProject-AuthorBook">
+    <configuration name="ShopProject-AuthorBook" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="ShopProject-AuthorBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.shopproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopProjectApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ShopProject-Order" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="ShopProject-Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.shopproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ShopProject-Author" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShopProject-Order" />
+      <item itemvalue="Spring Boot.ShopProject-AuthorBook" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShopProject-AuthorBook" />
+        <item itemvalue="Spring Boot.ShopProject-Order" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +118,7 @@
       <workItem from="1639144234316" duration="371000" />
       <workItem from="1639145136900" duration="52000" />
       <workItem from="1639145240178" duration="106000" />
-      <workItem from="1639152747007" duration="313000" />
+      <workItem from="1639152747007" duration="1095000" />
     </task>
     <task id="LOCAL-00001" summary="--">
       <created>1639152996985</created>
