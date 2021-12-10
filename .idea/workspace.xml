@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="--">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopProject-Order/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/ShopProject-Order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/ShopProject-Order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/DTO/Author/AuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/DTO/Author/AuthorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/DTO/Author/PostAuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/DTO/Author/PostAuthorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -70,6 +54,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RunManager" selected="Spring Boot.ShopProject-Order">
     <configuration name="ShopProject-AuthorBook" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
@@ -126,7 +111,7 @@
       <workItem from="1639144234316" duration="371000" />
       <workItem from="1639145136900" duration="52000" />
       <workItem from="1639145240178" duration="106000" />
-      <workItem from="1639152747007" duration="3836000" />
+      <workItem from="1639152747007" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="--">
       <created>1639152996985</created>
@@ -144,5 +129,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="--" />
     <option name="LAST_COMMIT_MESSAGE" value="--" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
