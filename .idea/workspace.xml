@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="--">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Controller/AuthorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/AuthorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/BookAuthorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Repository/BookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/AuthorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/BookAuthorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/java/com/example/shopproject/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-AuthorBook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-AuthorBook/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +107,7 @@
       <workItem from="1639144234316" duration="371000" />
       <workItem from="1639145136900" duration="52000" />
       <workItem from="1639145240178" duration="106000" />
-      <workItem from="1639152747007" duration="1095000" />
+      <workItem from="1639152747007" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="--">
       <created>1639152996985</created>
