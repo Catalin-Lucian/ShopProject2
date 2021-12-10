@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-212.5457.46">
-    <data-source name="posMongo@localhost" uuid="b449f600-6709-4c86-b08e-20a1bcc55462">
+    <data-source name="MongoDB - book-order@localhost" uuid="cf33d76a-d017-46be-bcc5-55e9fc2de909">
       <database-info product="Mongo DB" version="5.0.4" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="MONGO" exact-version="5.0.4" exact-driver-version="1.12" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <auth-provider>no-auth</auth-provider>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

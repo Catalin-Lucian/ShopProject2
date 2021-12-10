@@ -2,8 +2,6 @@ package com.example.shopproject.Model.Entity.Author;
 
 
 import lombok.Data;
-
-import javax.persistence.*;
 import java.io.Serializable;
 
 @Data

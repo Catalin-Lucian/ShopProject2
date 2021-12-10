@@ -5,16 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b0e030-dc74-4178-b4b6-30acad997ca8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Order/PostItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Order/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Order/PostOrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Order/PostOrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Order/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Order/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject-Order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject-Order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-connector-java-8.0.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Author/AuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Author/AuthorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Author/PostAuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/DTO/Author/PostAuthorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Author/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Model/Entity/BookAuthor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shopproject/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +63,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -50,6 +82,7 @@
     </option>
   </component>
   <component name="ProjectId" id="20ooeRN8ZMLRlbGdblV18CZITz0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,8 +95,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ShopProject-root" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -112,6 +149,7 @@
       <workItem from="1639143756261" duration="52000" />
       <workItem from="1639143899750" duration="57000" />
       <workItem from="1639144171315" duration="61000" />
+      <workItem from="1639156208911" duration="510000" />
     </task>
     <servers />
   </component>
