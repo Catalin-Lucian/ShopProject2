@@ -9,7 +9,6 @@ import java.util.*;
 @Data
 public class Order {
 
-    @MongoId
     private ObjectId id;
     private Date date = new Date();
     private List<Item> items= new ArrayList<Item>();
