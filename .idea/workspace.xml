@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ShopProject-Author" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2262e6Ekmvrv3WaFxvXI1aXhnHS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopProject-Order/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopProjectApplication">
+    <configuration name="ShopProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopProject-Book" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProjectApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopProject-Order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProjectApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopProject-AuthorBook" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProjectApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopProject-Order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopProject-Author" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c42f9c-ff55-4fb7-94f2-203f9bff81f4" name="Changes" comment="" />
+      <created>1639143810343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639143810343</updated>
+      <workItem from="1639143811920" duration="82000" />
+      <workItem from="1639143959083" duration="173000" />
+      <workItem from="1639144234316" duration="371000" />
+      <workItem from="1639145136900" duration="52000" />
+      <workItem from="1639145240178" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
