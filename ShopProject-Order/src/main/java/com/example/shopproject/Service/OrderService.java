@@ -1,6 +1,8 @@
 package com.example.shopproject.Service;
 
+import com.example.shopproject.Mapper.BookMapper;
 import com.example.shopproject.Mapper.OrderMapper;
+import com.example.shopproject.Model.DTO.Book.BookDTO;
 import com.example.shopproject.Model.DTO.Order.PostOrderDTO;
 import com.example.shopproject.Model.Entity.Book.Book;
 import com.example.shopproject.Model.Entity.Order.Item;
@@ -12,6 +14,7 @@ import org.springframework.data.mongodb.core.SimpleMongoClientDatabaseFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -22,23 +25,31 @@ public class OrderService {
 
     RestTemplate restTemplate = new RestTemplate();
 
-    public void PostOrder(PostOrderDTO postOrderDTO, Integer idUser) {
-        String bookUri = "http://localhost:8080/api/bookcollection/books/";
+    public void PostOrder(PostOrderDTO postOrderDTO, Long idUser) {
+        String bookUri = "http://localhost:8080/api/bookcollection/books/updateStock";
         Order order = OrderMapper.convertToOrder(postOrderDTO);
-        List<Item> items = order.getItems();
-        for (Item item : items) {
-             Book book = restTemplate.getForObject(bookUri+item.getIsbn(),Book.class);
-             System.out.println(book);
+
+        List<Item> orderItems = new ArrayList<>();
+        for (Item item : order.getItems()) {
+            System.out.println(OrderMapper.convertToItemDTO(item).toString());
+            BookDTO bookDTO = restTemplate.postForObject(bookUri, OrderMapper.convertToItemDTO(item),BookDTO.class);
+            if (bookDTO!=null){
+                item.setPrice(bookDTO.getPrice());
+                item.setTitle(bookDTO.getTitle());
+                orderItems.add(item);
+            }
 
         }
-//        mongoOps.insert(order, "Client." + idUser);
+        order.setItems(orderItems);
+        mongoOps.insert(order, "Client." + idUser);
     }
 
-    public void DeleteAllOrders(Integer idUser) {
+    public void DeleteAllOrders(Long idUser) {
         mongoOps.dropCollection("Client." + idUser);
     }
 
-//    public List<Order> GetOrders(Integer idUser){
-//        return mongoOps. ("Client."+idUser).;
-//    }
+    public List<Order> GetOrders(Long idUser){
+        return mongoOps.findAll(Order.class, "Client."+idUser);
+
+    }
 }

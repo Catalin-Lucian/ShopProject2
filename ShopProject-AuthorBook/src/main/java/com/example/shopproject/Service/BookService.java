@@ -4,6 +4,7 @@ import com.example.shopproject.Mapper.BookMapper;
 import com.example.shopproject.Model.DTO.Book.BookDTO;
 import com.example.shopproject.Model.DTO.Book.PartialBookDTO;
 import com.example.shopproject.Model.DTO.Book.PostBookDTO;
+import com.example.shopproject.Model.DTO.Order.PostItemDTO;
 import com.example.shopproject.Repository.BookRepository;
 import org.springframework.stereotype.Service;
 
@@ -96,6 +97,15 @@ public class BookService {
         return bookDTOS;
     }
 
-
+    public BookDTO UpdateStockForItem(PostItemDTO itemDTO){
+        System.out.println(itemDTO.toString());
+        var book = bookRepository.getBookByIsbn(itemDTO.getIsbn());
+        if (book!=null && book.getStock()-itemDTO.getQuantity()>=0){
+            book.setStock(book.getStock()-itemDTO.getQuantity());
+            bookRepository.save(book);
+            return BookMapper.convertToBookDTO(book);
+        }
+        return null;
+    }
 
 }

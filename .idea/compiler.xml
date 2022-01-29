@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ShopProject-AuthorBook" />
         <module name="ShopProject-Order" />
+        <module name="ShopProject-Security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="ShopProject-AuthorBook" target="11" />
       <module name="ShopProject-Book" target="11" />
       <module name="ShopProject-Order" target="11" />
+      <module name="ShopProject-Security" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +26,7 @@
       <module name="ShopProject-AuthorBook" options="-parameters" />
       <module name="ShopProject-Book" options="-parameters" />
       <module name="ShopProject-Order" options="-parameters" />
+      <module name="ShopProject-Security" options="-parameters" />
     </option>
   </component>
 </project>

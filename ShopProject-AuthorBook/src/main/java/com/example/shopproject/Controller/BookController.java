@@ -5,9 +5,11 @@ import com.example.shopproject.Model.DTO.Author.AuthorDTO;
 import com.example.shopproject.Model.DTO.Book.BookDTO;
 import com.example.shopproject.Model.DTO.Book.PostBookDTO;
 import com.example.shopproject.Model.DTO.DTO;
+import com.example.shopproject.Model.DTO.Order.PostItemDTO;
 import com.example.shopproject.Model.Entity.BookAuthor;
 import com.example.shopproject.Service.BookAuthorService;
 import com.example.shopproject.Service.BookService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -76,4 +78,11 @@ public class BookController {
         } else
             return new ArrayList<>();
     }
+
+    @PostMapping("/updateStock")
+    public ResponseEntity<BookDTO> UpdateStock(@RequestBody PostItemDTO item){
+        return ResponseEntity.ok(bookService.UpdateStockForItem(item));
+    }
+
+
 }

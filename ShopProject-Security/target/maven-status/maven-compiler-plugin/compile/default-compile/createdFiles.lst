@@ -1,0 +1,5 @@
+com\example\shopproject\Repository\UserRepository.class
+com\example\shopproject\Controller\SecurityController.class
+com\example\shopproject\Model\User.class
+com\example\shopproject\Service\UserService.class
+com\example\shopproject\ShopProjectApplication.class
