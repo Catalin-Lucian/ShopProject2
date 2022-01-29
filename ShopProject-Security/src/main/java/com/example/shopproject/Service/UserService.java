@@ -3,7 +3,6 @@ package com.example.shopproject.Service;
 import com.example.shopproject.Model.User;
 import com.example.shopproject.Repository.UserRepository;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -14,9 +13,13 @@ import java.util.UUID;
 @Service
 public class UserService {
 
-    @Autowired
-    UserRepository userRepository;
-    BCryptPasswordEncoder encoder= new BCryptPasswordEncoder(10, new SecureRandom());
+    final UserRepository userRepository;
+    BCryptPasswordEncoder encoder;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+        encoder= new BCryptPasswordEncoder(10, new SecureRandom());
+    }
 
     public String signIn(String username, String password) {
         Optional<User> optionalUser = userRepository.findByName(username);

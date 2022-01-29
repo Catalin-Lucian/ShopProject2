@@ -10,6 +10,5 @@ import java.util.List;
 @Repository
 public interface AuthorRepository extends CrudRepository<Author, Integer> {
     List<Author> findAllByLastName(String lastName);
-
     List<Author> findAllByLastNameIsContaining(String lastName);
 }

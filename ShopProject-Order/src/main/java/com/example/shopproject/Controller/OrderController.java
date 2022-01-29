@@ -2,7 +2,7 @@ package com.example.shopproject.Controller;
 
 
 import com.example.shopproject.ErrorHandler.MyErrorHandler;
-import com.example.shopproject.Model.DTO.Order.PostOrderDTO;
+import com.example.shopproject.Model.DTO.PostOrderDTO;
 import com.example.shopproject.Model.Entity.Order.Order;
 import com.example.shopproject.Model.Entity.User;
 import com.example.shopproject.Service.OrderService;
@@ -19,7 +19,7 @@ public class OrderController {
 
     public final OrderService orderService;
     RestTemplate restTemplate;
-    String tokenUrl ;
+    String tokenUrl;
 
     public OrderController(OrderService orderService) {
         this.orderService = orderService;

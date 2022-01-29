@@ -14,7 +14,6 @@ public class Order {
     private Date date = new Date();
     private List<Item> items= new ArrayList<Item>();
     private Status status;
-
     public void setItems(List<Item> items){
         this.items=items;
     }

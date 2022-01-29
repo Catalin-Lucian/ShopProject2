@@ -29,11 +29,13 @@ public class BookController {
     }
 
     @GetMapping("/{isbn}")
-    public DTO GetBookByISBN(@PathVariable String isbn, @RequestParam(required = false, defaultValue = "true") String verbose) {
+    public ResponseEntity<DTO> GetBookByISBN(@PathVariable String isbn, @RequestParam(required = false, defaultValue = "true") String verbose) {
         if (Objects.equals(verbose, "true"))
-            return bookService.GetBookByIsbn(isbn);
-        else {
-            return bookService.GetPartialBookByIsbn(isbn);
+            return ResponseEntity.ok(bookService.GetBookByIsbn(isbn));
+        else if (Objects.equals(verbose, "false")){
+            return ResponseEntity.ok(bookService.GetPartialBookByIsbn(isbn));
+        } else{
+            return ResponseEntity.badRequest().build();
         }
     }
 
@@ -48,13 +50,13 @@ public class BookController {
     }
 
     @GetMapping("/all")
-    public List<BookDTO> GetAllBooks() {
-        return bookService.GetAllBooks();
+    public ResponseEntity<List<BookDTO>> GetAllBooks() {
+        return ResponseEntity.ok(bookService.GetAllBooks());
     }
 
     @GetMapping("/{isbn}/authors")
-    public List<AuthorDTO> GetIDAuthorsForBook(@PathVariable String isbn) {
-        return bookAuthorService.GetIdAuthorsForBook(isbn);
+    public ResponseEntity<List<AuthorDTO>> GetIDAuthorsForBook(@PathVariable String isbn) {
+        return ResponseEntity.ok(bookAuthorService.GetIdAuthorsForBook(isbn));
     }
 
     @PostMapping("/{idAuthor}/authors/{isbn}")
@@ -63,25 +65,28 @@ public class BookController {
     }
 
     @GetMapping
-    public List<BookDTO> GetBooksPerPage(@RequestParam Integer page, @RequestParam(required = false, defaultValue = "10") Integer itemsPerPage) {
-        return bookService.GetBooksPerPage(page, itemsPerPage);
+    public ResponseEntity<List<BookDTO>> GetBooksPerPage(@RequestParam Integer page, @RequestParam(required = false, defaultValue = "10") Integer itemsPerPage) {
+        return ResponseEntity.ok(bookService.GetBooksPerPage(page, itemsPerPage));
     }
 
     @GetMapping("/find")
-    public List<BookDTO> GetBooksByGenreYear(@RequestParam(required = false, defaultValue = "") String GENRE, @RequestParam(required = false, defaultValue = "0") Integer YEAR) {
+    public ResponseEntity<List<BookDTO>> GetBooksByGenreYear(@RequestParam(required = false, defaultValue = "") String GENRE, @RequestParam(required = false, defaultValue = "0") Integer YEAR) {
         if (!Objects.equals(GENRE, "") && YEAR != 0) {
-            return bookService.GetBooksByGenreAndYear(GENRE, YEAR);
+            return ResponseEntity.ok(bookService.GetBooksByGenreAndYear(GENRE, YEAR));
         } else if (!Objects.equals(GENRE, "")) {
-            return bookService.GetBooksByGenre(GENRE);
+            return ResponseEntity.ok(bookService.GetBooksByGenre(GENRE));
         } else if (YEAR != 0) {
-            return bookService.GetBooksByYear(YEAR);
+            return ResponseEntity.ok(bookService.GetBooksByYear(YEAR));
         } else
-            return new ArrayList<>();
+            return ResponseEntity.notFound().build();
     }
 
     @PostMapping("/updateStock")
     public ResponseEntity<BookDTO> UpdateStock(@RequestBody PostItemDTO item){
-        return ResponseEntity.ok(bookService.UpdateStockForItem(item));
+        var book = bookService.UpdateStockForItem(item);
+        if (book!= null) return ResponseEntity.ok(book);
+        else return ResponseEntity.badRequest().build();
+
     }
 
 

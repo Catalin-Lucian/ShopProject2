@@ -1,7 +1,7 @@
 package com.example.shopproject.Mapper;
 
-import com.example.shopproject.Model.DTO.Order.PostItemDTO;
-import com.example.shopproject.Model.DTO.Order.PostOrderDTO;
+import com.example.shopproject.Model.DTO.PostItemDTO;
+import com.example.shopproject.Model.DTO.PostOrderDTO;
 import com.example.shopproject.Model.Entity.Order.Item;
 import com.example.shopproject.Model.Entity.Order.Order;
 

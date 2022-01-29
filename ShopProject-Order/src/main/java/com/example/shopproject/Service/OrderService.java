@@ -1,10 +1,8 @@
 package com.example.shopproject.Service;
 
-import com.example.shopproject.Mapper.BookMapper;
 import com.example.shopproject.Mapper.OrderMapper;
 import com.example.shopproject.Model.DTO.Book.BookDTO;
-import com.example.shopproject.Model.DTO.Order.PostOrderDTO;
-import com.example.shopproject.Model.Entity.Book.Book;
+import com.example.shopproject.Model.DTO.PostOrderDTO;
 import com.example.shopproject.Model.Entity.Order.Item;
 import com.example.shopproject.Model.Entity.Order.Order;
 import com.mongodb.client.MongoClients;
@@ -31,8 +29,7 @@ public class OrderService {
 
         List<Item> orderItems = new ArrayList<>();
         for (Item item : order.getItems()) {
-            System.out.println(OrderMapper.convertToItemDTO(item).toString());
-            BookDTO bookDTO = restTemplate.postForObject(bookUri, OrderMapper.convertToItemDTO(item),BookDTO.class);
+            BookDTO bookDTO = restTemplate.postForObject(bookUri, OrderMapper.convertToItemDTO(item), BookDTO.class);
             if (bookDTO!=null){
                 item.setPrice(bookDTO.getPrice());
                 item.setTitle(bookDTO.getTitle());

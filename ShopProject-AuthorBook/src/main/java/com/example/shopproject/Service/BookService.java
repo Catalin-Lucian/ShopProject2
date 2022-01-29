@@ -91,19 +91,22 @@ public class BookService {
 
     public List<BookDTO> GetBooksByGenreAndYear(String genre, Integer year) {
         List<BookDTO> bookDTOS = new ArrayList<>();
-        bookRepository.findAllByGenreAndYear(genre, year).forEach(book -> {
+        bookRepository.findAllByGenreAndYear(genre, year)
+                .forEach(book -> {
             bookDTOS.add(BookMapper.convertToBookDTO(book));
         });
         return bookDTOS;
     }
 
     public BookDTO UpdateStockForItem(PostItemDTO itemDTO){
-        System.out.println(itemDTO.toString());
-        var book = bookRepository.getBookByIsbn(itemDTO.getIsbn());
-        if (book!=null && book.getStock()-itemDTO.getQuantity()>=0){
-            book.setStock(book.getStock()-itemDTO.getQuantity());
-            bookRepository.save(book);
-            return BookMapper.convertToBookDTO(book);
+        var bookOptional = bookRepository.getBookByIsbn(itemDTO.getIsbn());
+        if (bookOptional.isPresent()) {
+            var book = bookOptional.get();
+            if (book.getStock() - itemDTO.getQuantity() >= 0) {
+                book.setStock(book.getStock() - itemDTO.getQuantity());
+                bookRepository.save(book);
+                return BookMapper.convertToBookDTO(book);
+            }
         }
         return null;
     }
