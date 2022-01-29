@@ -252,7 +252,7 @@
       <recent name="com.example.shopproject.Errorhandler" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopProject-Order">
+  <component name="RunManager" selected="Spring Boot.ShopProject-Security">
     <configuration name="ShopProject-AuthorBook" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="ShopProject-AuthorBook" />
       <extension name="coverage">
@@ -305,9 +305,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ShopProject-Order" />
-        <item itemvalue="Spring Boot.ShopProject-AuthorBook" />
         <item itemvalue="Spring Boot.ShopProject-Security" />
+        <item itemvalue="Spring Boot.ShopProject-AuthorBook" />
+        <item itemvalue="Spring Boot.ShopProject-Order" />
       </list>
     </recent_temporary>
   </component>
